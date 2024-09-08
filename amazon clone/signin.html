@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .box{
+            width: 350px;
+            border: 1px solid gray;
+            height: 350px;
+            margin-left: 40%;
+            border-radius: 7px; 
+        }
+        input[type="email"]{
+            padding-left: 100px;
+            margin-left: 20px;
+        }
+        .con{
+            margin-left: 20px;
+            margin-top: 20px;
+        
+        }
+        .con button{
+            width: 300px;
+            height: 30px;
+        }
+        .hello{
+            color: rgb(1, 84, 119);
+        }
+        .line{
+            width: 290px;
+            border: 1px solid rgba(128, 128, 128, 0.295);
+            margin: 20px;
+        }
+        .work{
+            margin-left: 30px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .shop{
+            color: rgb(1,84,119);
+            font-size: 13px;
+            margin-left: 25px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+      <center>  <img src="Amazon logo.png"></center>
+    </div>
+   <div class="box">
+    <div><p style="font-size: x-large; font-weight: 900; padding-left: 40px; font-style:oblique;">Sign in</p></div>
+
+    <div><label style="padding-left: 20px;">Email or Mobile Phone Number</label></div>
+    <input type="email" name="email"/>
+
+    <div class="con">  
+    <button style=" background-color: rgb(255, 200, 0); border-radius: 5px;" onclick="check()" >continue</button>
+    </div>
+    <div class="cont">
+     <p>By Continuing,you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+   </div>
+   <div style="display: flex;">
+    <i class="fa-solid fa-caret-right"></i><div class="hello">Need help?</div>
+</div>
+<div class="line"></div>
+<div class="work">Buying for work?</div>
+<div class="shop">Shop on Amazon Business</div>
+   </div>
+   <script src="signin.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(1, 6, 21);
+    height: 70px;
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+img{
+    width: 120px;
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+ .addfrst{
+    margin-left: 20px;
+    color: aliceblue;
+    font-size:12px ;
+    
+}
+.addicon{
+    
+    color: white; 
+    display: flex;
+    align-items: center;
+
+}
+.addsec{
+    
+    color: rgb(215, 204, 205);
+    margin-left: 3px;
+} 
+.options{
+ float: left;
+ font-size: 12px;
+}
+.options:hover{
+ color: skyblue;
+}
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+.selectser{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 90px;
+}
+input[type="search"]{
+    width: 100%;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 172, 6, 0.954);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+i:hover{
+    background-color: rgba(234, 207, 2, 0.801);
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin{
+    color: aliceblue;
+}
+.nav-returns{
+    color: aliceblue;
+}
+
+.nav-cart i {
+    font-size:30px
+}
+.nav-cart{
+    color:aliceblue;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/*panel */
+.panel{
+    height: 40px;
+    background-color:rgb(13, 13, 75) ;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.herosect{
+    /* background-image: url(hero_image.jpg); */
+    height: 200px;
+    background-size: cover;
+}
+.heromsg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 360px;
+    /* left: 50px; */
+    width: 100%;
+}
+
+.heromsg a{
+    color: rgb(7, 217, 203);
+}
+.shopsect{
+    background-color: rgba(177, 189, 186, 0.719);
+    height: 1200px;
+    
+}
+.box{
+    width: 350px;
+    margin: 20px;
+    border: 2px solid white;   
+    height: 350px;
+    background-color: white;
+    
+}
+.box1,.box2,.box3,.box4{
+    margin-top: 120px;
+}
+.cloth{
+    height: 280px;
+    width: 340px;
+    padding: 30px;
+   
+}
+.col{
+    display: flex;
+    
+}
+.bed{
+    margin: 10px;
+    height: 250px;
+    background-color:white ;
+}
+.products{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.see{
+    color: rgb(76, 120, 149);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+}
+.see:hover{
+    color: red;
+    text-decoration:none;
+}
+h3{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.footbox{
+    height: 90px;
+     margin-bottom: 30px;
+   margin-top: 30px;
+    border: 2px solid rgba(202, 199, 199, 0.479);
+    border-radius: 5px;
+}
+.signin{
+    background-color: rgba(232, 125, 6, 0.879);
+    width: 150px;
+    border-radius: 3px;
+}
+h5{
+    font-size: 10px;
+    color: rgb(76, 120, 149);
+}
+h5:hover{
+    color: rgb(232, 125, 10);
+}
+.backtop{
+    background-color: rgba(3, 18, 66, 0.826) ;
+    width: 100%;
+    height: 30px;
+}
+.back{
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.backtop:hover{
+   background-color: rgb(67, 77, 97);
+}
+.details{
+    background-color: rgba(8, 25, 54, 0.945);
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gets{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+    font-size: 12px;
+}
+.cont{
+   display: flex;
+}
